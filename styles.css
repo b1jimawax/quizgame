@@ -1,0 +1,116 @@
+body {
+    font-family: poppins;
+    /* background-color: #2e2e2e; */
+    background-image: url(img/bg.png);
+    background-size: cover;
+    
+    
+    
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.3s ease-in-out;
+}
+
+.container:hover {
+    transform: scale(1.02);
+}
+
+h1 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 18px;
+    color: #444;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px 24px;
+    background-color: #5cb85c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #397239;
+}
+
+.question {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 0;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.option:hover {
+    background-color: #ddd;
+}
+
+.option input {
+    display: none;
+}
+
+.option label {
+    margin: 0 10px; /* Ajustement de la marge horizontale */
+    font-size: 16px;
+    color: #333;
+}
+
+/* Animation pour le clignotement */
+@keyframes blink {
+    0% { background-color: inherit; }
+    50% { background-color: #f0f0f0; }
+    100% { background-color: inherit; }
+}
+
+/* Appliquer l'animation aux options */
+.option.blink {
+    animation: blink 2s ease infinite;
+}
+marquee{
+    background-color: yellow;
+}
+.footer{
+    bottom: 0;
+    position: absolute;
+    width: 99%;
+}
