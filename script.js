@@ -12,7 +12,7 @@ const questions = [
 ];
 
 let currentQuestionIndex = 0;
-let score = 1;
+let score = 0;
 
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
