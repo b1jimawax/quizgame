@@ -8,7 +8,7 @@ const questions = [
     { question: "Que signifie omniprésent ?", options: ["Aimable", "Invincible", "Omniscient", "Tout-puissant"], answer: "Tout-puissant" },
     { question: "Que signifie pragmatique ?", options: ["Idéaliste", "Réaliste", "Théorique", "Spéculatif"], answer: "Réaliste" },
     { question: "Que signifie Taciturne ?", options: ["Bavard", "Joyeux", "Silencieux", "Coloré"], answer: "Silencieux" },
-    { question: "Comment appelle-t-on les élèves de l'ENS ?", options: ["les Normaliens", "les Nomades", "les Nomains", "les Normalus"], answer: "les Normaliens" },
+    { question: "Comment appelle-t-on les élèves de l'ENS ?", options: ["les Normaliens", "les Nomades", "les Nomains", "les Normane"], answer: "les Normaliens" },
 ];
 
 let currentQuestionIndex = 0;
